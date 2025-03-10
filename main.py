@@ -130,7 +130,7 @@ def spin(balance):
     print_slot_machine(slots)
     winnings, winning_line =  check_winnings(slots, lines, bet, symbol_value)
     print(f"You won ${winnings}.")
-    print(f"You won on lines:", *winning_line)   #'*' this is a unpacked operator / splack operator. 
+    print(f"You won on lines:", *winning_line)   #'*' this is a unpacking operator / splat operator. 
     return winnings - total_bet
 
 
